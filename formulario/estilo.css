@@ -1,0 +1,80 @@
+h3{
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.principal{
+    background: url("./img/foto-cabecalho-2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: calc(100vh - 100px - 84.88px) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.rabugem{
+    height: 300px;
+    width: 400px;
+}
+
+.fieldset{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    border: none;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: center;
+    background: url("./img/foto-cabecalho-5.jpg");
+    background-position-y: -50px;
+    
+}
+
+.cabecalho__titulo{
+    border-bottom: 5px solid #3f3c4b;
+    padding: 0 10px;
+    text-transform: uppercase;
+    color: #3f3c4b;
+
+}
+
+
+.secao-formulario{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.container-formulario{
+    display: inline-block;
+  
+  
+}
+
+.label{
+   
+}
+
+.input{
+    
+}
+
+.rodape{
+    height: 100px;
+    background: url("./img/foto-cabecalho-5.jpg");
+    background-position-y: -50px;
+}
+
+img {
+    width: 200px;
+    height: fit-content;
+}
+
